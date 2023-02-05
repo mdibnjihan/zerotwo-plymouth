@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name= zero_two
+Description=replace boring boot screen with something fun
+Comment=cloned from Aditya Shakya (@adi1090x) and modified by Md. Ibn Jihan (mdibnjihan) UwU
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/zero_two
+ScriptFile=/usr/share/plymouth/themes/zero_two/zero_two.script
