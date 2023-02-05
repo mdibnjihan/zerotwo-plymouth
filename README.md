@@ -20,6 +20,7 @@ sudo update-initramfs -u
 ``` 
 # Plymouth
 ![Plymouth - logo](https://gitlab.freedesktop.org/plymouth/plymouth/-/raw/main/ply_header.svg)
+
 Plymouth is an application that runs very early in the boot process (even before the root filesystem is mounted!) that provides a graphical boot animation while the boot process happens in the background.
 It is designed to work on systems with DRM modesetting drivers. The idea is that early on in the boot process the native mode for the computer is set, plymouth uses that mode, and that mode stays throughout the entire boot process up to and after X starts. Ideally, the goal is to get rid of all flicker during startup.
 For systems that don't have DRM mode settings drivers, plymouth falls back to text mode (it can also use a legacy /dev/fb interface).
