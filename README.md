@@ -1,6 +1,9 @@
 # About
 Zero Two dance Plymouth theme is a funny theme that will enable your linux boot menu to show the funny Zero-Two Dance boot animation. </br>
+
 ![Desktop - 1](https://user-images.githubusercontent.com/101347202/216816149-c7b5f340-96d7-4e55-9f3f-243a6f861633.png)
+
+The <b>progress bar</b> and the <b>OS name</b> is <b>not included</b>. You can modify the source files to achieve this. Follow Plymouth documention before modifying. Thank you!
 
 # Installation
 
